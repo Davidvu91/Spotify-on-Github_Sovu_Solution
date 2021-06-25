@@ -1,0 +1,151 @@
+
+nav {
+    border: 2px solid red;
+    background-color: black;
+    width: 100%;
+}
+nav .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+   
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.links * {
+	margin: 15px;
+	color: white;
+	font-weight: 300px;
+}
+a {
+	text-decoration: none;
+}
+
+.links span {
+	pointer-events: none;
+}
+a:hover {
+	color: red;
+}
+/* section 1*/
+#section1 {
+    border: 10px solid grey;
+    padding-top: 80px; 
+    width: 100%;
+    background-color: orangered;
+    min-height: 70vh;
+}
+#section1 .container {
+    border: 5px solid green; 
+    padding: 0px;
+}
+#section1 .container .content {
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+}
+#section1 .container .content .text {
+    border: 2px solid yellow;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    flex-basis: 50%;
+}
+#section1 .container .content .text .title1 {
+    font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 32px;
+}
+#section1 .container .content .text .title2 {
+    font-size: 64px;
+	font-weight: 600;
+	letter-spacing: -0.04em;
+}
+.description {
+	font-size: 18px;
+	font-weight: 400;
+    font-family: 'Indie Flower', cursive;
+	margin-top: 16px;
+}
+.button {
+    margin-top: 0px;
+	border-radius: 500px;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 17px 48px;
+	letter-spacing: 2px;
+	border: 0;
+    width: 60%;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* section Footer */
+footer .container {
+    border: 10px solid green;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+footer .container .row1 {
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .row1 .row-footer-left {
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: space-around;
+    width: 68vw;
+    height: 30vh;
+}
+footer .container .row-footer-left .column {
+    border: 2px solid darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: space-around;
+   
+}
+footer .container .row1 .footer-right {
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    justify-content: flex-end;
+    width: 30vw;
+}
+footer .container .row2 {
+    border: 2px solid pink;
+    display: flex;
+    justify-content: flex-end;
+}
+footer .container .row3 {
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
